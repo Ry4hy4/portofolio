@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila&family=Monoton&family=Pacifico&display=swap');
+
+.text-green {
+    color: #B5D5C5;
+}
+.text-purple{
+    color: #B08BBB;
+}
+.text-orange{
+    color: #ECA869;
+}
+.text-khaki{
+    color: #F5F5DC;
+}
+.full-height{
+    min-height: 100vh;
+    scroll-snap-align: start;
+}
+
+.content{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.home{
+    background-image: url('/assets/images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.profile{
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}
+.title{
+    font-family: 'Monoton', 'sans-serif';
+}
+.aboutme{
+    background-color: #F5F5DC;
+}
+
+.logo-aboutme{
+    background-image: url('/assets/images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 100vh;
+}
+
+.experience{
+    background: url('/assets/images/bg2.jpg'), rgba(245, 245, 220, 0.9);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    text-shadow: 1px 1px #ECA869;
+}
+.experience-title{
+    font-family: 'Pacifico', 'sans-serif';
+    color: #ECA869;
+}
+
+@media only screen and (max-width: 1140px) {
+    .aboutme{
+        background-image: url('/assets/images/bg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+  }
